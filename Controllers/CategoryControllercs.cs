@@ -28,5 +28,19 @@ new Category{Id=4,Title="Xiomi",DisplayId=4}
             return new JsonResult(category);
 
         }
+        [HttpPut("{id}")]
+        public ActionResult<Category> update(int id, [FromBody] Category category)
+        {
+            listOfCategories[id] = category;
+            return new JsonResult(listOfCategories);
+
+        }
+        [HttpDelete("{id}")]
+        public ActionResult<Category>delete(int id)
+        {
+            listOfCategories.RemoveAt(id);
+            return new JsonResult(listOfCategories);
+            
+        }
     }
 }

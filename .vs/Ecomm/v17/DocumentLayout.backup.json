@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Controllers\\CategoryControllercs.cs",
               "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Controllers\\CategoryControllercs.cs",
               "RelativeToolTip": "Controllers\\CategoryControllercs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAB8AAAABAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCYAAAAlAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T06:44:31.294Z",
               "EditorCaption": ""
@@ -51,21 +51,19 @@
               "RelativeToolTip": "Modal\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T06:27:52.792Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T06:27:52.792Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Ecomm",
+              "Title": "Ecomm.csproj",
               "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Ecomm.csproj",
               "RelativeDocumentMoniker": "Ecomm.csproj",
               "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Ecomm.csproj",
               "RelativeToolTip": "Ecomm.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-21T06:16:03.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T06:16:03.074Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T06:02:05.643Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-21T06:02:05.643Z"
             }
           ]
         }

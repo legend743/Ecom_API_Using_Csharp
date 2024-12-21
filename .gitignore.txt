@@ -1,0 +1,71 @@
+# Visual Studio
+.vs/
+.vscode/
+
+# Build results
+bin/
+obj/
+
+# User-specific files
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Auto-generated files
+*.Generated.cs
+*.Generated.json
+
+# File-based database
+*.mdf
+*.ldf
+
+# Temporary files
+*.tmp
+*.log
+*.cache
+*.csproj.user
+
+# IIS and web project files
+_IISExpress/
+.localhistory/
+
+# Rider and JetBrains
+.idea/
+*.sln.iml
+
+# DotNet Tools
+.dotnet_toolchain/
+
+# Ignore unnecessary backup files
+*.bak
+*.swp
+*~
+
+# OS-specific files
+.DS_Store
+Thumbs.db
+
+# Ignore generated files from the .NET SDK
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Prevent sensitive data files
+secrets.json
+
+# Ignore compiled output
+*.dll
+*.exe
+*.pdb
+*.apphost.exe
+*.sourcelink.json
+
+# Ignore test result files
+TestResults/
+*.trx
+
+# NuGet Packages
+*.nupkg
+*.snupkg
+packages/
