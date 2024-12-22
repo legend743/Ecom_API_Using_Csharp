@@ -47,6 +47,16 @@
   },
   {
     "ContainingType": "Ecomm.Controllers.CategoryControllercs",
+    "Method": "DeleteAll",
+    "RelativePath": "api/CategoryControllercs",
+    "HttpMethod": "DELETE",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "Ecomm.Controllers.CategoryControllercs",
     "Method": "update",
     "RelativePath": "api/CategoryControllercs/{id}",
     "HttpMethod": "PUT",

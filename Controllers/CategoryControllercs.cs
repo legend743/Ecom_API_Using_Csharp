@@ -36,11 +36,20 @@ new Category{Id=4,Title="Xiomi",DisplayId=4}
 
         }
         [HttpDelete("{id}")]
-        public ActionResult<Category>delete(int id)
+        public ActionResult<Category> delete(int id)
         {
             listOfCategories.RemoveAt(id);
             return new JsonResult(listOfCategories);
-            
+
         }
+
+        [HttpDelete]
+        public IActionResult DeleteAll()
+        {
+            listOfCategories.Clear(); // Removes all items from the list
+            return Ok("All categories have been deleted.");
+        }
+
+
     }
 }

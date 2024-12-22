@@ -3,16 +3,16 @@
   "WorkspaceRootPath": "D:\\All project\\C_Sharp_Learning\\Ecomm\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\controllers\\categorycontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:controllers\\categorycontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\ecomm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:ecomm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\modal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:modal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\ecomm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:ecomm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\controllers\\categorycontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:controllers\\categorycontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -26,17 +26,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "CategoryControllercs.cs",
               "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Controllers\\CategoryControllercs.cs",
               "RelativeDocumentMoniker": "Controllers\\CategoryControllercs.cs",
               "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Controllers\\CategoryControllercs.cs",
               "RelativeToolTip": "Controllers\\CategoryControllercs.cs",
-              "ViewState": "AgIAAB4AAAAAAAAAAAAkwCYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAAwDIAAAAJAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-21T06:44:31.294Z",
               "EditorCaption": ""
@@ -51,11 +51,12 @@
               "RelativeToolTip": "Modal\\Category.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T06:27:52.792Z"
+              "WhenOpened": "2024-12-21T06:27:52.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 0,
               "Title": "Ecomm.csproj",
               "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Ecomm.csproj",
               "RelativeDocumentMoniker": "Ecomm.csproj",
@@ -63,7 +64,8 @@
               "RelativeToolTip": "Ecomm.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-21T06:16:03.074Z"
+              "WhenOpened": "2024-12-21T06:16:03.074Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
@@ -75,7 +77,8 @@
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T06:02:05.643Z"
+              "WhenOpened": "2024-12-21T06:02:05.643Z",
+              "EditorCaption": ""
             }
           ]
         }

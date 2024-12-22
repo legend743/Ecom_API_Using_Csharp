@@ -87,6 +87,16 @@
             }
           }
         }
+      },
+      "delete": {
+        "tags": [
+          "CategoryControllercs"
+        ],
+        "responses": {
+          "200": {
+            "description": "OK"
+          }
+        }
       }
     },
     "/api/CategoryControllercs/{id}": {
