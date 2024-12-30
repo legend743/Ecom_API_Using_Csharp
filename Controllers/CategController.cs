@@ -10,7 +10,7 @@ namespace Ecomm.Controllers
     [ApiController]
     public class CategController : ControllerBase
     {
-        private ApllicationDbContext _context;
+        private readonly ApllicationDbContext _context;
 
         public CategController(ApllicationDbContext context)
         {
@@ -21,31 +21,49 @@ namespace Ecomm.Controllers
         [HttpGet]
         public IEnumerable<Category> Get()
         {
-            return _context.Categories
+            return _context.Categories;
+        }
 
         // GET api/<CategController>/5
         [HttpGet("{id}")]
         public Category Get(int id)
         {
-            return _context.Categories.FirstOrDefault(x => x.Id==id);
+            return _context.Categories.FirstOrDefault(x => x.Id == id);
         }
 
         // POST api/<CategController>
         [HttpPost]
-        public void Post([FromBody] string value)
+        public void Post([FromBody] Category category)
         {
+            _context.Categories.Add(category);
+            _context.SaveChanges();
         }
 
         // PUT api/<CategController>/5
         [HttpPut("{id}")]
-        public void Put(int id, [FromBody] string value)
+        public void Put(int id, [FromBody] Category category)
         {
+            var categoryFromDb=_context.Categories.Find(id);
+            if (categoryFromDb == null)
+            {
+                Console.WriteLine("No data Found with this ID");
+            }
+            else
+            {
+                _context.Categories.Update(categoryFromDb);
+                _context.SaveChanges();
+            }
+         
+
+
         }
 
         // DELETE api/<CategController>/5
-        [HttpDelete("{id}")]
-        public void Delete(int id)
-        {
-        }
+        //[HttpDelete("{id}")]
+        //public void Delete(int id)
+        //{
+
+        //    _context.Categories.Remove()
+        //}
     }
 }

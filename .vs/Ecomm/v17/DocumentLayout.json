@@ -7,28 +7,20 @@
       "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:controllers\\categcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\data\\apllicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:data\\apllicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\controllers\\categorycontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:controllers\\categorycontrollercs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\modal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:modal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\ecomm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
-      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:ecomm.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\modal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:modal\\category.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|d:\\all project\\c_sharp_learning\\ecomm\\data\\apllicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{01E0F40C-830D-4E40-B006-734BED46142A}|Ecomm.csproj|solutionrelative:data\\apllicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,8 +30,34 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 2,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Category.cs",
+              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Modal\\Category.cs",
+              "RelativeDocumentMoniker": "Modal\\Category.cs",
+              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Modal\\Category.cs",
+              "RelativeToolTip": "Modal\\Category.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-30T09:24:06.539Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAABKAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-30T08:52:27.256Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,87 +66,35 @@
               "RelativeDocumentMoniker": "Controllers\\CategController.cs",
               "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Controllers\\CategController.cs",
               "RelativeToolTip": "Controllers\\CategController.cs",
-              "ViewState": "AgIAABwAAAAAAAAAAAAiwDMAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwC8AAAANAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T15:46:49.126Z",
+              "WhenOpened": "2024-12-30T06:08:00.314Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "Ecomm.csproj",
-              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Ecomm.csproj",
-              "RelativeDocumentMoniker": "Ecomm.csproj",
-              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Ecomm.csproj",
-              "RelativeToolTip": "Ecomm.csproj",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAKAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2024-12-21T06:16:03.074Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Program.cs",
-              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAAA0AAACSAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T06:02:05.643Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "CategoryControllercs.cs",
-              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Controllers\\CategoryControllercs.cs",
-              "RelativeDocumentMoniker": "Controllers\\CategoryControllercs.cs",
-              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Controllers\\CategoryControllercs.cs",
-              "RelativeToolTip": "Controllers\\CategoryControllercs.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAuAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T06:44:31.294Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
               "Title": "ApllicationDbContext.cs",
               "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Data\\ApllicationDbContext.cs",
               "RelativeDocumentMoniker": "Data\\ApllicationDbContext.cs",
               "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Data\\ApllicationDbContext.cs",
               "RelativeToolTip": "Data\\ApllicationDbContext.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAlAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAApAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-22T13:03:54.853Z",
+              "WhenOpened": "2024-12-27T11:09:49.127Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "Category.cs",
-              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Modal\\Category.cs",
-              "RelativeDocumentMoniker": "Modal\\Category.cs",
-              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Modal\\Category.cs",
-              "RelativeToolTip": "Modal\\Category.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 2,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-21T06:27:52.792Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "D:\\All project\\C_Sharp_Learning\\Ecomm\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "D:\\All project\\C_Sharp_Learning\\Ecomm\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-12-22T14:45:33.086Z",
+              "WhenOpened": "2024-12-27T11:04:54.834Z",
               "EditorCaption": ""
             }
           ]
