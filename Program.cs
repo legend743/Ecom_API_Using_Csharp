@@ -1,4 +1,6 @@
+using Ecomm.Controllers.Service;
 using Ecomm.Data;
+using Ecomm.Interfaces;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
 
@@ -12,7 +14,7 @@ builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
 builder.Services.AddDbContext<ApllicationDbContext>(options=>options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection")));
-
+builder.Services.AddScoped<ICategoryService,CategoryService>();
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.

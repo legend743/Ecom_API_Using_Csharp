@@ -1,6 +1,9 @@
-﻿using Ecomm.Modal;
+﻿using Ecomm.DTO;
+using Ecomm.Interfaces;
+using Ecomm.Modal;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.VisualBasic;
 
 namespace Ecomm.Controllers
 {
@@ -8,35 +11,45 @@ namespace Ecomm.Controllers
     [ApiController]
     public class CategoryControllercs : ControllerBase
     {
-        List<Category> listOfCategories = new List<Category>
+        private readonly ICategoryService _categoryService;
+
+        public CategoryControllercs(ICategoryService categoryService ){
+            _categoryService=categoryService;
+        }
+        List<CategoryModel> listOfCategories = new List<CategoryModel>
         {
-new Category{Id=1,Title="Samsung",DisplayId=1},
-new Category{Id=2,Title="Nokia",DisplayId =2},
-new Category{Id=3,Title="Apple",DisplayId=3},
-new Category{Id=4,Title="Xiomi",DisplayId=4}
+new CategoryModel{Id=1,Title="Samsung",DisplayId=1},
+new CategoryModel{Id=2,Title="Nokia",DisplayId =2},
+new CategoryModel{Id=3,Title="Apple",DisplayId=3},
+new CategoryModel{Id=4,Title="Xiomi",DisplayId=4}
 
         };
         [HttpGet]
-        public IEnumerable<Category> Get()
+        public Task<List<CategoryDTO>> Get()
         {
-            return listOfCategories;
+            return _categoryService.GetCategoryData();
         }
         [HttpPost]
-        public ActionResult<Category> AddCategory([FromBody] Category category)
+        public async Task<ActionResult<bool>>AddCategory([FromBody] CategoryDTO category)
         {
-            listOfCategories.Add(category);
-            return new JsonResult(category);
+          bool result=await _categoryService.SaveCategory(category);
+            if (!result)
+            {
+                return BadRequest(false);
+            }
+    
+           return BadRequest(true);
 
         }
         [HttpPut("{id}")]
-        public ActionResult<Category> update(int id, [FromBody] Category category)
+        public ActionResult<CategoryModel> update(int id, [FromBody] CategoryModel category)
         {
             listOfCategories[id] = category;
             return new JsonResult(listOfCategories);
 
         }
         [HttpDelete("{id}")]
-        public ActionResult<Category> delete(int id)
+        public ActionResult<CategoryModel> delete(int id)
         {
             listOfCategories.RemoveAt(id);
             return new JsonResult(listOfCategories);

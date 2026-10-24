@@ -11,6 +11,6 @@ namespace Ecomm.Data
         {
 
         }
-        public DbSet<Category> Categories { get; set; } = null!;
+        public DbSet<CategoryModel> Categories { get; set; } = null!;
     }
 } 
