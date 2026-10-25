@@ -1,0 +1,8 @@
+How do you use different connection strings in Development and Production?
+
+I keep environment-specific configuration separate. Locally, the API connects to SQL Server Express, while Azure App Service supplies the production connection string through its configuration settings. This avoids hardcoding production credentials and allows the same application code to run in both environments.
+3 Interview questions
+- What does dotnet ef database update do?
+- How does EF Core know which migrations have already been applied?
+- What is the __EFMigrationsHistory table?
+- Why shouldn't production database credentials be committed to GitHub?
